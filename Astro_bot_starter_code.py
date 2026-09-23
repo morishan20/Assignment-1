@@ -19,7 +19,7 @@ from #complete the import statement to include the datetime library
 def get_webex_token():
     choice = input("Use hard-coded Webex token? (y/n): ").lower()
     if choice == "n":
-        token = input("Enter your Webex Access Token: ")
+        token = input("Enter your Webex token: ")
         return f"Bearer {token}"
     else:
         return "Bearer YOUR_WEBEX_TOKEN"
